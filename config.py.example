@@ -1,0 +1,5 @@
+api_key = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"  # get this from Binance
+api_secret = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"  # get this from Binance
+mail_username = "someone@gmail.com"  # or any email is okay
+mail_password = "xxxxxxxxxxxxx"  # your email password, or app password if you're using Gmail
+mail_to = "someoneelse@gmail.com,another@outlook.com"
