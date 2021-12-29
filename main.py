@@ -48,11 +48,10 @@ send(
     f"""
 <html>
 <body>
-<h3>Your current balance summary:</h3>
 <p>
-<h5>Total: $<b>{round(total_usdt, 2):,}</b></h5>
-<h5>Total: <b>{round(total_usdt * usdtovnd):,}</b> đ</h5>
+<h5>Total: (USD) <b>${round(total_usdt, 2):,}</b> - (VND) <b>{round(total_usdt * usdtovnd):,}</b>đ.</h5>
 </p>
+<h3>Summary of all current balances:</h3>
 <p>
 <table border="1">
 <tr>
